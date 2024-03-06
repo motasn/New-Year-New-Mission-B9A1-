@@ -1,0 +1,38 @@
+* {
+    font-family: "Merriweather", serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    margin: 50px 0;
+    background-image: url(../resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1320px;
+    width: 80%;
+    height: 600px;
+    
+}
+
+.New-contaner {
+    border-radius: 16px;
+background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+.New-heading h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    padding:200px 250px ;
+}
+
+.New-heading p {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px
+    font-weight: 400; 
+    padding-top:150px ;
+}
