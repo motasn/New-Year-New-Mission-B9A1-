@@ -161,7 +161,7 @@ header {
 /* place style */
 
 #place,
-.place-contanner  {
+.place-contanner {
     background-color: #FF0000;
     margin: 80px auto;
     width: 1320px;
@@ -200,14 +200,54 @@ button {
     text-transform: uppercase;
     padding-top: 16px;
 }
+ /* OFFER-contaner */
+ .OFFER-contaner{
+    text-align: center;
+    margin: 270px auto;
+    display: flex;
+    justify-content: space-around;
+    width: 1600px;
 
+ }
 
+ .BEST-OFFER h4{
+    color: #F00;
+text-align: center;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+ }
+ .BEST-OFFER h2 {
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.BEST-OFFER p{
+    color: rgba(7, 2, 17, 0.60);
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+padding: 10px 40px 4px 1px ;
+}
+.OFFER-best h3{
+    color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
 /* Portfolio style */
 
 .Portfolio-contaner {
-    margin: 80px auto;
-    width: 1320px;
-    height: 482px;
+    margin: 100px auto;
+    width: 1600px;
+    height: 800px;
+    text-align: center;
 }
 
 
@@ -219,7 +259,8 @@ button {
     padding-top: 80px;
 }
 
-.Portfolio-text h2 , .subscribe-text h2 {
+.Portfolio-text h2,
+.subscribe-text h2 {
     color: #070211;
     font-size: 48px;
     font-style: normal;
@@ -229,7 +270,8 @@ button {
 
 }
 
-.Portfolio-text p , .subscribe-text p {
+.Portfolio-text p,
+.subscribe-text p {
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-style: normal;
@@ -238,63 +280,108 @@ button {
     padding: 20px;
 }
 
-
-.img-p {
-    margin: 14px;
+.Portfolio-imag{
+    width: 1320px;
+    height: 482px;
+    margin: 30px auto;
+ 
 }
 
-#Subscribe{
-    margin: 120px 0 ;
+#Subscribe {
+    margin: 120px 0;
 }
-.subscribe-contaner { 
+ 
+
+
+#Subscribe , .subscribe-contaner{
     justify-items: center;
-    margin: 800px 350px 800px 350px ;
+    margin: 800px 350px 800px 350px;
     width: 1320px;
     height: 616px;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
-    padding:150px ;
+     justify-items: center;
+        margin: 80px auto;
+        padding:79px ;
 }
 
 .subscribe-text img {
-  padding: 50px 550px;
+    padding: 50px 550px;
 }
 
 .subscribe-text h2 {
-padding: 40px 350px;
+    padding: 40px 350px;
 }
- .subscribe-text p{
-    padding: 10px 100px; 
- }
 
- .subscribe-button{
-    padding: 30px 300px ;
+.subscribe-text p {
+    padding: 10px 100px;
+}
+
+.subscribe-button {
+    padding: 30px 300px;
     display: inline-flex;
- }
-.subscribe-button input{
+}
+
+.subscribe-button input {
     width: 648px;
-    height: 72px;
+    height: 60px;
     flex-shrink: 0;
     border-radius: 50px;
-background: #FFF;
- border: 0;
+    background: #FFF;
+    border: 0;
 }
 
-.pl{
-    padding:20px 60px  ;
+.pl {
+    padding: 20px 60px;
 }
- .subscribe{
+
+.subscribe {
     width: 210px;
-height: 72px;
-border-radius: 0px 50px 50px 0px;
-background: #F00;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+}
+
+.button-subscribe {
+    margin-top: 20px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    width: 210px;
+    height: 72px;
+    padding: 24px 50px;
+}
+
+/* footer-contaner style */
+.footer-contaner {
+    background: #070211;
+         max-width:1600px ;
+         height: 609px;
+         width: 80%;
+         margin: 80px auto;
+         justify-items: center;
+         padding:112px ;
+}
+
+.footer-contaner-text{
+    padding: 60px;
+    display: flex;
+    justify-content:space-around;
+    color: #FFF;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+}
+ .footer-contaner-img{
+    text-align: center;
+    padding: 50px  ;
  }
 
- .button-subscribe {
-    margin-top:20px ;
-    border-radius: 0px 50px 50px 0px;
-background: #F00;
-width: 210px;
-height: 72px;
-padding: 24px 50px ;
+ .footer-contaner-img img{
+    padding-right: 20px ;justify-content: space-around;
  }
+.footer-contaner hr {
+    text-align: center;
+    width: 1320px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+}
