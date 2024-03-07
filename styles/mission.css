@@ -179,24 +179,68 @@ header {
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
-    line-height: 56px;  
+    line-height: 56px;
     text-transform: capitalize;
-} 
+}
 
-button{
+button {
     border: 0;
     border-radius: 8px;
-background: #F00;
-display: inline-flex;
-padding: 16px 32px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-color: #FFF;
-text-align: center;
+    background: #F00;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 16px;
+}
+
+
+/* Portfolio style */
+
+.Portfolio-contaner {
+    margin: 80px auto;
+    width: 1320px;
+    height: 482px;
+}
+
+
+.Portfolio-text h4 {
+    color: rgb(233, 129, 198);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+padding-top:80px ;
+}
+
+.Portfolio-text h2{
+    color: #070211;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+
+}
+.Portfolio-text p{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
 font-size: 20px;
 font-style: normal;
-font-weight: 700;
-text-transform: uppercase;
-padding-top: 16px ;
+font-weight: 400;
+line-height: 32px;
+padding: 20px;
+}
+.Portfolio-imag{
+    display: inline-flex;
+}
+.img-p{
+
+   margin:14px ;
 }
