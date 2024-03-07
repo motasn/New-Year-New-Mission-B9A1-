@@ -102,25 +102,24 @@ header {
     background-position: center;
     max-width: 1320px;
     width: 80%;
-    height: 600px;
-    /* fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+   
+   
 }
 
 .party-contaner {
-    display: flex;
-    /* fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+    display: flex; 
 }
 
+#party ,.party-contaner{
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
 
 .party-text-h{
     color: #FFF;
-font-family: Merriweather;
 font-size: 64px;
 font-style: normal;
 font-weight: 900;
-line-height: 88px; /* 137.5% */
-letter-spacing: 7.04px;
-padding: 80px  ;
+padding: 50px  ;
 }
 
 .party-text-p{
@@ -149,4 +148,16 @@ justify-content: center;
 align-items: center;
 flex-shrink: 0;
     padding:120px 60px ;
+ }
+
+
+ /* place style */
+
+ .place-contanner{
+    background-color:#FF0000 ;
+    margin: 80px auto;
+    width: 1320px;
+height: 482px;
+background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+ 
  }
