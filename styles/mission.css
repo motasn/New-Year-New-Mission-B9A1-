@@ -161,7 +161,7 @@ header {
 /* place style */
 
 #place,
-.place-contanner {
+.place-contanner  {
     background-color: #FF0000;
     margin: 80px auto;
     width: 1320px;
@@ -213,34 +213,88 @@ button {
 
 .Portfolio-text h4 {
     color: rgb(233, 129, 198);
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-padding-top:80px ;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 80px;
 }
 
-.Portfolio-text h2{
+.Portfolio-text h2 , .subscribe-text h2 {
     color: #070211;
-font-size: 48px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-text-transform: capitalize;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
 
 }
-.Portfolio-text p{
+
+.Portfolio-text p , .subscribe-text p {
     color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px;
-padding: 20px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 20px;
 }
-.Portfolio-imag{
-    display: inline-flex;
-}
-.img-p{
 
-   margin:14px ;
+
+.img-p {
+    margin: 14px;
 }
+
+#Subscribe{
+    margin: 120px 0 ;
+}
+.subscribe-contaner { 
+    justify-items: center;
+    margin: 800px 350px 800px 350px ;
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding:150px ;
+}
+
+.subscribe-text img {
+  padding: 50px 550px;
+}
+
+.subscribe-text h2 {
+padding: 40px 350px;
+}
+ .subscribe-text p{
+    padding: 10px 100px; 
+ }
+
+ .subscribe-button{
+    padding: 30px 300px ;
+    display: inline-flex;
+ }
+.subscribe-button input{
+    width: 648px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 50px;
+background: #FFF;
+ border: 0;
+}
+
+.pl{
+    padding:20px 60px  ;
+}
+ .subscribe{
+    width: 210px;
+height: 72px;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+ }
+
+ .button-subscribe {
+    margin-top:20px ;
+    border-radius: 0px 50px 50px 0px;
+background: #F00;
+width: 210px;
+height: 72px;
+padding: 24px 50px ;
+ }
