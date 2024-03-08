@@ -212,18 +212,17 @@ button {
 
  .BEST-OFFER h4{
     color: #F00;
-text-align: center;
+text-align: left;
 font-size: 24px;
 font-style: normal;
 font-weight: 500;
  }
  .BEST-OFFER h2 {
     color: #070211;
-font-family: Merriweather;
 font-size: 48px;
 font-style: normal;
 font-weight: 900;
-line-height: normal;
+text-align: left;
 text-transform: capitalize;
 }
 .BEST-OFFER p{
@@ -232,6 +231,8 @@ font-size: 20px;
 font-style: normal;
 font-weight: 400;
 padding: 10px 40px 4px 1px ;
+text-align: left;
+
 }
 .OFFER-best h3{
     color: #F00;
@@ -246,7 +247,7 @@ line-height: normal;
 .Portfolio-contaner {
     margin: 100px auto;
     width: 1600px;
-    height: 800px;
+    height: 1200px;
     text-align: center;
 }
 
